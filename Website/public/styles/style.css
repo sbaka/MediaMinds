@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+
+/*-----------------------------------Global style-------------------------------*/
+* {
+  margin: 0;
+  color: #fdfdfd;
+  font-family: 'Yu Gothic';
+}
+
+body {
+  background-color: #19191b;
+  background-image: url(../assets/rect-colorful.png), url(../assets/rect-colorful-orange.png);
+  background-repeat: repeat-y, repeat-y;
+  background-position: left top, right top;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 28px;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.headline1-text {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 36px;
+}
+
+.headline2-text {
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+
+.pragraph-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 21px;
+  margin-bottom: 36px;
+}
+
+/*----------------------------Element specific stuff------------------------------------*/
+header>nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+
+header>button {
+  border: #fdfdfd 1px solid;
+  background-color: transparent;
+  padding: 16px 24px;
+  border-radius: 5px;
+}
+
+header>img {
+  width: 8rem;
+}
+
+.spacer {
+  height: 10vh;
+}
+
+
+/* --------------------------------scroll bar---------------------------------- */
+/* Track */
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

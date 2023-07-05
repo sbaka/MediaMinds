@@ -1,0 +1,27 @@
+.title-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-text>h2 {
+    flex: 3;
+    margin: 20px;
+    padding: 40px;
+}
+
+.title-text>p {
+    flex: 2;
+}
+
+.video-container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    width: 70%;
+    height: 100%;
+}
