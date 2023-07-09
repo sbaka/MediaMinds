@@ -44,3 +44,10 @@
 .display-illustration>img {
     max-height: 800px;
 }
+
+@media only screen and (max-width: 1017px) {
+
+    .display-illustration>img {
+        max-height: 500px !important;
+    }
+}
