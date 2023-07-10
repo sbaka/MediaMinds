@@ -69,3 +69,26 @@
         font-size: 17px;
       }
 }
+
+
+@media only screen and (max-width: 816px) {
+    .display-illustration>img {
+        max-height: 450px !important;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .display-illustration>img {
+        max-height: 450px !important;
+    }
+}
+
+@media only screen and (max-width: 657px) {
+
+    .servives-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        padding: 0px;
+    }
+}

@@ -51,3 +51,16 @@
         max-height: 500px !important;
     }
 }
+
+
+@media only screen and (max-width: 657px) {
+
+    .headline1-text {
+        font-size: 30px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        margin-bottom: 36px;
+    }
+    
+}
