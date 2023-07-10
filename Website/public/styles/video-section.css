@@ -13,7 +13,9 @@
 .title-text>p {
     flex: 2;
 }
-
+.video-section {
+    margin: 56px;
+}
 .video-container {
     height: 70vh;
     display: flex;
@@ -34,11 +36,20 @@
         align-items: center;
         justify-content: center;
     }
-    .title-text {
 
-        margin-right: 100px;
+    
 
-    }
+}
+
+@media only screen and (max-width: 652px) {
+  
+
+
+        .title-text {
+            display: flex;
+            flex-direction: column ;
+            align-items: center;
+        }
     
 
 }

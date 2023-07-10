@@ -86,3 +86,14 @@
 
 
 }
+
+@media only screen and (max-width: 652px) {
+
+  .wrapper  {
+    display: flex;
+    grid-gap: 1em;
+    overflow: hidden;
+    width: 20em !important;
+}
+  
+  }
