@@ -12,6 +12,17 @@
   <link rel="stylesheet" href="./styles/video-section.css">
   <link rel="stylesheet" href="./styles/services-style.css">
   <link rel="stylesheet" href="./styles/projects-style.css">
+  <link rel="stylesheet" href="./styles/owl.carousel.css">
+  <link rel="stylesheet" href="./styles/owl.theme.default.css">
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <link rel="stylesheet" href="./styles/caroussel.css">
+
+
+
 
 
   <!-- Icons from google -->
@@ -117,88 +128,75 @@
       </div>
     </div>
   </section>
-  <section class="projects-section">
-    <div class="service-header-container">
+    <section class="game-section">
       <h2 class="headline2-text">Notre portefeuille impressionnant.</h2>
-    </div>
-    <div class="center">
-      <div class="wrapper">
-        <div class="inner">
-          <div class="card">
-            <img src="./assets/protfolio/image_app_mobile.png">
-            <div class="content">
-              <h1>Digital Marketing</h1>
-              <h3>UI/UX, Design</h3>
-            </div>
+    
+      <div class="owl-carousel custom-carousel owl-theme">
+        <div class="item active" style="background-image: url(./assets/protfolio/image_app_mobile.png);">
+          <div class="item-desc">
+            <h3>Digital Marketing</h3>
+            <p>UI/UX, Design</p>
           </div>
-          <div class="card">
-            <img src="./assets/protfolio/image_webapp.png">
-            <div class="content">
-              <h1>Digital Marketing</h1>
-              <h3>UI/UX, Design</h3>
-            </div>
+        </div>
+        <div class="item" style="background-image: url(./assets/protfolio/image_webapp.png);">
+          <div class="item-desc">
+            <h3>Digital Marketing</h3>
+            <p>UI/UX, Design</p>
           </div>
-          <div class="card">
-            <img src="./assets/protfolio/image_site_vitrine.png">
-            <div class="content">
-              <h1>Digital Marketing</h1>
-              <h3>UI/UX, Design</h3>
-            </div>
+        </div>
+        <div class="item" style="background-image: url(./assets/protfolio/image_site_vitrine.png);">
+          <div class="item-desc">
+            <h3>Digital Marketing</h3>
+            <p>UI/UX, Design</p>
           </div>
-          <div class="card">
-            <img src="./assets/protfolio/image_app_mobile.png">
-            <div class="content">
-              <h1>Digital Marketing</h1>
-              <h3>UI/UX, Design</h3>
-            </div>
+        </div>
+        <div class="item" style="background-image: url(./assets/protfolio/image_app_mobile.png);">
+          <div class="item-desc">
+            <h3>Digital Marketing</h3>
+            <p>UI/UX, Design</p>
           </div>
-          <div class="card">
-            <img src="./assets/protfolio/image_webapp.png">
-            <div class="content">
-              <h1>Digital Marketing</h1>
-              <h3>UI/UX, Design</h3>
-            </div>
+        </div>
+        <div class="item" style="background-image: url(./assets/protfolio/image_webapp.png);">
+          <div class="item-desc">
+            <h3>Digital Marketing</h3>
+            <p>UI/UX, Design</p>
           </div>
-          <div class="card">
-            <img src="./assets/protfolio/image_site_vitrine.png">
-            <div class="content">
-              <h1>Digital Marketing</h1>
-              <h3>UI/UX, Design</h3>
-            </div>
+        </div>
+        <div class="item" style="background-image: url(./assets/protfolio/image_site_vitrine.png);">
+          <div class="item-desc">
+            <h3>Digital Marketing</h3>
+            <p>UI/UX, Design</p>
           </div>
-          <div class="card">
-            <img src="./assets/protfolio/image_app_mobile.png">
-            <div class="content">
-              <h1>Digital Marketing</h1>
-              <h3>UI/UX, Design</h3>
-            </div>
+        </div>
+        <div class="item" style="background-image: url(./assets/protfolio/image_app_mobile.png);">
+          <div class="item-desc">
+            <h3>Digital Marketing</h3>
+            <p>UI/UX, Design</p>
           </div>
-          <div class="card">
-            <img src="./assets/protfolio/image_webapp.png">
-            <div class="content">
-              <h1>Digital Marketing</h1>
-              <h3>UI/UX, Design</h3>
-            </div>
+        </div>
+        <div class="item" style="background-image: url(./assets/protfolio/image_webapp.png);">
+          <div class="item-desc">
+            <h3>Digital Marketing</h3>
+            <p>UI/UX, Design</p>
           </div>
-          <div class="card">
-            <img src="./assets/protfolio/image_site_vitrine.png">
-            <div class="content">
-              <h1>Digital Marketing</h1>
-              <h3>UI/UX, Design</h3>
-            </div>
+        </div>
+        <div class="item" style="background-image: url(./assets/protfolio/image_site_vitrine.png);">
+          <div class="item-desc">
+            <h3>Digital Marketing</h3>
+            <p>UI/UX, Design</p>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="map">
-        <button class="active first"></button>
-        <button class="second"></button>
-        <button class="third"></button>
-      </div>
-    </div>
-  </section>
-  <div class="spacer"></div>
+
+
+  <div class="spacer"></div>  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
   <script src="./scripts/caroussel.js"></script>
+
   <script type="module">
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
