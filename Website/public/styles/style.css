@@ -157,8 +157,19 @@ a {
     text-align: left;
   }
 }
-/*-----------------------------------Global style 680px or less-------------------------------*/
+/*-----------------------------------Global style 657px or less-------------------------------*/
 @media only screen and (max-width: 657px) {
+  header > img {
+    content: url('../assets/Logo-small.svg') !important;
+    
+  }
+
+  header>img {
+    width: 4rem !important;
+}
+.hamburger {
+  display: inline-block !important;
+}
 
 
   .headline1-text {
@@ -169,13 +180,13 @@ a {
     margin-bottom: 36px;
   }
   
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: 28px;
-    gap: 20px;
+
+header  {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  margin: 28px;
+  gap: 20px;
 }
 .headline2-text {
   color: #FFF;
@@ -197,6 +208,17 @@ a {
     background-repeat: repeat-y, repeat-y;
     background-position: left top, right top;
   }
+
+  header > nav {
+    display: none !important;
+  }
+  button {
+    display: none !important;
+
+    
+    
+}
+
 }
 
 
