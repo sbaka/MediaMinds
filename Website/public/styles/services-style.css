@@ -78,7 +78,8 @@
 }
 @media only screen and (max-width: 680px) {
     .display-illustration>img {
-        max-height: 450px !important;
+        margin-top: 30px;
+        max-height:400px !important;
     }
 }
 @media only screen and (max-width: 657px) {
