@@ -50,6 +50,11 @@
             flex-direction: column ;
             align-items: center;
         }
-    
+        .title-text>h2 {
+            flex: 3;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
 
 }
