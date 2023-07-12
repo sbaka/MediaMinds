@@ -72,7 +72,42 @@ a {
   margin-bottom: 36px;
 }
 
+.contact-section{
+height: 505px;
+background-color: #1E1E20;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding: 58px;
+}
+.contact-section>button {
+  
+  border: none;
+    background-color: #5454D4;
+    padding: 16px 24px;
+    border-radius: 5px;
+    font-size: 21;
+    font-weight: bold;
+}
+.contact-section>div{
+width:70%;
+}
+.realfooter{
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 28px 0px;
+}
 
+.realfooter>nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
 /*------------------------hamabaga-----------------------*/
 
 /*-----------------------------------Global style 1017px or less-------------------------------*/
@@ -192,7 +227,11 @@ a {
   display: inline-block !important;
 }
 
-
+.video {
+  width: 100% !important;
+  height: 100%;
+}
+* 
   .headline1-text {
     font-size: 40px !important;
     font-style: normal;
@@ -233,12 +272,40 @@ header  {
   header > nav {
     display: none !important;
   }
-  button {
+  .headerbutton {
     display: none !important;
 
     
     
 }
+.realfooter{
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 28px 0px;
+}
+
+.realfooter>nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.contact-section{
+  height: 505px;
+  background-color: #1E1E20;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 58px;
+  }
+  .headline2-text{
+    text-align: center;
+  }
 .pragraph-text {
 
   text-align: center;
