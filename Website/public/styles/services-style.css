@@ -56,3 +56,41 @@
     background-color: rgba(254, 220, 90, 0.1)
         /* Blue */
 }
+
+
+@media only screen and (max-width: 1017px) {
+
+    .display-illustration>img {
+        max-height: 500px !important;
+    }
+    .servie-element-title {
+        display: inline-block;
+        text-align: center;
+        font-size: 17px;
+      }
+}
+
+
+@media only screen and (max-width: 816px) {
+    .display-illustration>img {
+        max-height: 450px !important;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .display-illustration>img {
+        margin-top: 30px;
+        max-height:400px !important;
+    }
+}
+@media only screen and (max-width: 657px) {
+
+    .servives-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)) !important;
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        padding: 0px;
+        width: 100%;
+  max-width: 1280px;
+    }
+}

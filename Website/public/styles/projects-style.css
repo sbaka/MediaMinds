@@ -72,3 +72,28 @@
   background: #5454D4;
   transition: all 100ms ease-in-out;
 }/*# sourceMappingURL=projects-style.css.map */
+
+
+@media only screen and (max-width: 1017px) {
+
+.wrapper {
+  display: flex;
+  grid-gap: 1em;
+  overflow: hidden;
+  width: 40em !important;
+}
+
+
+
+}
+
+@media only screen and (max-width: 652px) {
+
+  .wrapper  {
+    display: flex;
+    grid-gap: 1em;
+    overflow: hidden;
+    width: 20em !important;
+}
+  
+  }
