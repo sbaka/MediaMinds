@@ -12,7 +12,8 @@
   overflow: hidden;
   width: 60em;
 }
-.wrapper > .inner {
+
+.wrapper>.inner {
   display: flex;
   grid-gap: 1em;
   transition: all 1s ease-in-out;
@@ -23,28 +24,34 @@
   border-radius: 0.5em;
   box-shadow: 1px 1px 10px #2c2c2c;
 }
-.card > img {
+
+.card>img {
   border-top-right-radius: inherit;
   border-top-left-radius: inherit;
   display: block;
   width: 17.5em;
 }
-.card > .content {
+
+.card>.content {
   background: #1E1E20;
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
   padding: 1em;
   text-align: center;
 }
-.card > .content > h1, .card > .content > h3 {
+
+.card>.content>h1,
+.card>.content>h3 {
   margin: 0.35em 0;
 }
-.card > .content > h1 {
+
+.card>.content>h1 {
   color: #fff;
   font-size: 1.25rem;
   line-height: 1;
 }
-.card > .content > h3 {
+
+.card>.content>h3 {
   color: #ccc;
   font-size: 0.9rem;
   font-weight: 300;
@@ -53,35 +60,47 @@
 .map {
   margin-top: 1em;
 }
-.map > button {
+
+.map>button {
   all: unset;
   background: #37373a;
   cursor: pointer;
   margin: 0 0.125em;
   position: relative;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   border-radius: 50%;
   height: 1em;
   width: 1em;
 }
-.map > button.active {
+
+.map>button.active {
   border-radius: 50px;
   width: 2em;
   background: #5454D4;
   transition: all 100ms ease-in-out;
-}/*# sourceMappingURL=projects-style.css.map */
+}
+
+/*# sourceMappingURL=projects-style.css.map */
+
+
+.deco2 {
+  padding: 32px;
+  background-image: url('../assets/abstract/ab2.png');
+  background-position: 90% 80%;
+  background-repeat: no-repeat;
+}
 
 
 @media only screen and (max-width: 1017px) {
 
-.wrapper {
-  display: flex;
-  grid-gap: 1em;
-  overflow: hidden;
-  width: 40em !important;
-}
+  .wrapper {
+    display: flex;
+    grid-gap: 1em;
+    overflow: hidden;
+    width: 40em !important;
+  }
 
 
 
@@ -89,11 +108,11 @@
 
 @media only screen and (max-width: 652px) {
 
-  .wrapper  {
+  .wrapper {
     display: flex;
     grid-gap: 1em;
     overflow: hidden;
     width: 20em !important;
-}
-  
   }
+
+}

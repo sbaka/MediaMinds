@@ -1,8 +1,7 @@
-.service-header-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 32px;
+.deco1 {
+    background-image: url('../assets/abstract/ab3.png'), url('../assets/abstract/ab4-rotated.png');
+    background-position: 5% 10%, 90% 80%;
+    background-repeat: no-repeat;
 }
 
 .servives-list {
@@ -11,6 +10,13 @@
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
     padding: 40px;
+    background-image: url('../assets/abstract/ab1.png');
+    background-position: 5% 100%;
+    background-repeat: no-repeat;
+}
+
+.service-elemenet-text {
+    text-align: center;
 }
 
 .service-element {
@@ -33,6 +39,7 @@
 
 .servie-element-title {
     margin: 8px;
+    text-align: center;
     font-size: 21px;
 }
 
@@ -63,11 +70,12 @@
     .display-illustration>img {
         max-height: 500px !important;
     }
+
     .servie-element-title {
         display: inline-block;
         text-align: center;
         font-size: 17px;
-      }
+    }
 }
 
 
@@ -76,12 +84,14 @@
         max-height: 450px !important;
     }
 }
+
 @media only screen and (max-width: 680px) {
     .display-illustration>img {
         margin-top: 30px;
-        max-height:400px !important;
+        max-height: 400px !important;
     }
 }
+
 @media only screen and (max-width: 657px) {
 
     .servives-list {
@@ -91,6 +101,6 @@
         justify-items: center;
         padding: 0px;
         width: 100%;
-  max-width: 1280px;
+        max-width: 1280px;
     }
 }
