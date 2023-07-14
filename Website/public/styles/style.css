@@ -45,7 +45,7 @@ header {
 
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 657px) {
   header {
     padding: 18px;
     position: sticky;
@@ -727,7 +727,12 @@ button {
   .toggle-menu span:after {
     top: -7px;
   }
-
+           
+  .toggle-menu.active{
+    position: fixed !important;
+    top: 35px;
+    right:29px;
+  }
   .toggle-menu.active span {
     background-color: transparent;
     transition: background 0.2s ease-out;
