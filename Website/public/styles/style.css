@@ -55,6 +55,22 @@ header {
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
   }
+  #sects:after {
+    bottom: -4px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: relative;
+    background: #fff;
+    opacity: 0.6;
+    transition: width 0.3s ease 0s, opacity 0.3s ease 0s;
+    width: 0;
+  }
+  #sects:hover:after {
+    width: 100%;
+    opacity: 0.9;
+  }
 }
 
 
@@ -381,7 +397,6 @@ button {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 28px;
     gap: 40px;
   }
 
@@ -417,7 +432,6 @@ button {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 28px;
     gap: 20px;
   }
 
@@ -474,6 +488,7 @@ button {
     justify-content: space-between !important;
     align-items: center;
     margin: 28px;
+    
     gap: 20px;
   }
 
