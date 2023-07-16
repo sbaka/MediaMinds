@@ -150,7 +150,7 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin: 28px 0px;
+  margin: 28px 20px;
 }
 
 .realfooter>nav {
@@ -159,7 +159,6 @@ button {
   justify-content: space-between;
   width: 400px;
 }
-
 
 /*-----------------------------------Global style 1017px or less-------------------------------*/
 @media only screen and (max-width: 1017px) {
@@ -186,6 +185,12 @@ button {
     font-size: 16px !important;
     margin-bottom: 36px;
     text-align: justify;
+  }
+  .realfooter>nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 
@@ -456,6 +461,11 @@ button {
 
 /*-----------------------------------Global style 657px or less-------------------------------*/
 @media only screen and (max-width: 657px) {
+  .servcar{
+    background-image: url('../assets/abstract/ab1.png');
+  background-position: 15% 100%;
+  background-repeat: no-repeat;
+  }
   header>img {
     content: url('../assets/Logo-small.svg') !important;
 
@@ -813,6 +823,7 @@ header>img {
 
 .spacer {
   height: 10vh;
+  
 }
 
 
@@ -838,3 +849,6 @@ header>img {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
+
+
+/*---------------------------------contact form--------------------------------*/

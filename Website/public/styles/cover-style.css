@@ -57,8 +57,10 @@
 }
 
 
-@media only screen and (max-width: 657px) {
 
+
+
+@media only screen and (max-width: 657px) {
     .headline1-text {
         font-size: 30px !important;
         font-style: normal;
@@ -67,17 +69,15 @@
         margin-bottom: 36px;
     }
 
-
-}
-
-
-@media only screen and (max-width: 657px) {
     .cover-section {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 56px;
+        background-image: url('../assets/abstract/ab1.png'), url('../assets/abstract/ab2.png'), url('../assets/abstract/ab3.png'), url('../assets/abstract/ab4.png');
+        background-position:10% 50%, 90% 50%, 10% 95%, 90% 85%;
+        background-repeat: no-repeat;
     }
 
     .display-text {
@@ -85,5 +85,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .display-illustration {
+        flex: 5;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-image: none;
+        background-repeat: no-repeat;
     }
 }
