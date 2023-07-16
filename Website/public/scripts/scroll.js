@@ -10,4 +10,16 @@ for (var i = 0; i < scrollLinks.length; i++) {
             targetElement.scrollIntoView({ behavior: 'smooth' });
         }
     });
-}
+};
+
+const contact = document.querySelector(".contact-btn");
+const modal = document.querySelector(".form-modal");
+const close = document.querySelector(".close");
+
+contact.addEventListener("click",()=>{
+    modal.style.display = "flex";
+})
+console.log("sdsds");
+close.addEventListener("click",()=>{
+    modal.style.display = "none";
+})

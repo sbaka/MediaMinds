@@ -852,3 +852,148 @@ header>img {
 
 
 /*---------------------------------contact form--------------------------------*/
+
+
+.btn {
+    padding: 15px 30px;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #111;
+    color: #111;
+    font-size: 15px;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #5454D4;
+    color: #fff;
+    transform: translateY(-8px);
+}
+
+.form-modal {
+    width: 100% !important; height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1103;
+}
+
+.modal-content {
+    width: 450px;
+    background-color: #e6e6e6;;
+    padding: 20px;
+    position: relative;
+    animation: visible 500ms 1;
+    animation-fill-mode: forwards;
+    border-radius: 5px;
+}
+
+@keyframes visible {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.content-wrapper {
+    opacity: 0;
+    animation: toRight 500ms 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes toRight {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+.close {
+    position: absolute;
+    font-size: 30px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    transition: all 0.3s;
+    color: black;
+}
+
+.close:hover {
+    transform: rotate(-45deg) scale(1.3);
+}
+
+input,textarea{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+  color: black;
+}
+.combo-input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+  border-top: 2px solid #e6e6e6;
+  border-right: 2px solid #e6e6e6;
+  border-left: 2px solid #e6e6e6;
+  color: black;
+}
+input:focus,textarea:focus {
+  border-bottom: 2px solid #5454D4;
+}
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+
+.submit {
+    display: block;
+    margin: 30px auto 0;
+}
+.h2form{
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #5454D4;
+    border-bottom: 3px solid #5454D4;
+  
+}
+.content-wrapper>form{
+margin:0px 50px ;
+}
+
+/******************combobox******************/
+option{
+  color: #111;
+}

@@ -257,8 +257,32 @@
     <div>
       <h2 class="headline2-text">Contactez-nous pour le service que vous souhaitez utiliser.</h2>
     </div>
-    <button type="button">Nous Contacter</button>
-  
+    <button type="button" class="contact-btn btn">Nous Contacter</button>
+    <div class="form-modal">
+      <div class="modal-content">
+          <div class="content-wrapper">
+              <div class="close"> + </div>
+              <form>
+                <h2 class="h2form">Contact</h2>
+                <p type="Name :"><input placeholder="Write your name here.."></input></p>
+                <p type="Email :"><input placeholder="Let us know how to contact you back.."></input></p>
+                <p type="service :">
+<div class="combo">
+  <select id="select-el" class="combo-input">
+    <option>Dévelopement</option>
+    <option>Design Graphique</option>
+    <option>UI/UX design</option>
+    <option>Motion Graphic</option>
+    <option>Vidéographie</option>
+    <option>Photographie</option>
+  </select>
+</div></p>
+                <p type="Message:"><textarea class="massage" placehoder="Message"></textarea></input></p>
+                  <button class="submit btn"> Submit </button>
+              </form>
+          </div>
+      </div>
+  </div>
   </section>
   <footer class="realfooter">
     <a href="#accueil"  ><img src="./assets/mediamindslogofamily.svg" alt="logo" /></a>
