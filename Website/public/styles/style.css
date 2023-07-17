@@ -925,6 +925,7 @@ header>img {
 
 .close {
     position: absolute;
+    right:  10px;
     font-size: 30px;
     transform: rotate(45deg);
     cursor: pointer;
