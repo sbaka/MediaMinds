@@ -998,3 +998,38 @@ margin:0px 50px ;
 option{
   color: #111;
 }
+
+
+
+
+/*****************scroll-animation****************/
+
+
+.show{
+opacity: 1;
+transition: all 2s;
+filter: blur(0);
+transform: translateX(0);
+}
+.hidden{
+opacity: 0;
+filter: blur(5px);
+transform: translateX(-100%);
+}
+
+.service-element:nth-child(2){
+  transition-delay:200ms ;
+
+}
+.service-element:nth-child(3){
+  transition-delay: 400ms;
+
+}
+.service-element:nth-child(5){
+  transition-delay: 200ms;
+
+}
+.service-element:nth-child(6){
+  transition-delay: 400ms;
+
+}

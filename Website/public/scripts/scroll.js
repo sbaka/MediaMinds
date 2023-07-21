@@ -19,7 +19,28 @@ const close = document.querySelector(".close");
 contact.addEventListener("click",()=>{
     modal.style.display = "flex";
 })
-console.log("sdsds");
+
 close.addEventListener("click",()=>{
     modal.style.display = "none";
 })
+
+/*-------------------scroll-animation-----------*/
+
+
+const observer= new IntersectionObserver((entries)=>{
+    console.log("sdsds1");
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+            entry.target.classList.remove('hidden');
+            console.log("sdsds2");
+        }else{
+            entry.target.classList.remove('show');
+            entry.target.classList.add('hidden');
+        }
+
+    })
+})
+
+const hiddenElements =document.querySelectorAll('.hidden');
+hiddenElements.forEach((el)=>observer.observe(el));
