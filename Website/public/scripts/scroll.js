@@ -15,6 +15,7 @@ for (var i = 0; i < scrollLinks.length; i++) {
 const contact = document.querySelector(".contact-btn");
 const modal = document.querySelector(".form-modal");
 const close = document.querySelector(".close");
+const contact2=document.querySelector(".contact-btn2");
 
 contact.addEventListener("click",()=>{
     modal.style.display = "flex";
@@ -24,6 +25,13 @@ close.addEventListener("click",()=>{
     modal.style.display = "none";
 })
 
+contact2.addEventListener("click",()=>{
+    modal.style.display = "flex";
+})
+
+close.addEventListener("click",()=>{
+    modal.style.display = "none";
+})
 /*-------------------scroll-animation-----------*/
 
 

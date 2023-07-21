@@ -63,7 +63,10 @@
     background-color: rgba(254, 220, 90, 0.1)
         /* Blue */
 }
-
+.service-section{
+    
+  padding-top: 50px;
+}
 
 @media only screen and (max-width: 1017px) {
 

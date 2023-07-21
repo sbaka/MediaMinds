@@ -12,6 +12,7 @@ body {
   background-image: url(../assets/rect-colorful.png), url(../assets/rect-colorful-orange.png);
   background-repeat: repeat-y, repeat-y;
   background-position: left top, right top;
+  
 }
 
 p {
@@ -41,7 +42,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /* margin: 28px; */
+  
 
 }
 
